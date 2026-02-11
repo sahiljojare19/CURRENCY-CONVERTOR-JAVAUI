@@ -62,7 +62,7 @@ public class conveter_frame extends JFrame {
         from.setBackground(Color.WHITE);           // ← CHANGED TO WHITE
         from.setForeground(Color.BLACK);           // ← Changed to black so text is visible
         from.setBorder(BorderFactory.createLineBorder(new Color(180, 180, 200), 1));
-        from.setFocusable(false);                  // Removes ugly focus border
+        //from.setFocusable(false);                  // Removes ugly focus border
         contentPane.add(from);
 
         /* ===== TO ===== */
@@ -78,7 +78,7 @@ public class conveter_frame extends JFrame {
         to1.setBackground(Color.WHITE);            // ← CHANGED TO WHITE
         to1.setForeground(Color.BLACK);            // ← Changed to black
         to1.setBorder(BorderFactory.createLineBorder(new Color(180, 180, 200), 1));
-        to1.setFocusable(false);                   // Removes ugly focus border
+        //to1.setFocusable(false);                   // Removes ugly focus border
         contentPane.add(to1);
 
         /* ===== RATE ===== */
