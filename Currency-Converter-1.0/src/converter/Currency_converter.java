@@ -37,7 +37,7 @@ public class Currency_converter {
 
         // MAIN BACKGROUND (SOFT PINK)
         mainpage = new JPanel();
-        mainpage.setBackground(new Color(255, 182, 193));
+        mainpage.setBackground(new Color(70, 35, 110));
         mainpage.setBounds(0, 0, 721, 427);
         mainpage.setLayout(null);
         frmCurrencyConverter.getContentPane().add(mainpage);
