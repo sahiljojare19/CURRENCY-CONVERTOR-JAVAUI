@@ -22,12 +22,12 @@ public class Aboutpanel extends JFrame {
         setTitle("About");
         setType(Type.POPUP);
         setResizable(false);
-        setBounds(100, 100, 735, 464); // SAME SIZE
+        setBounds(100, 100, 735, 464);
         setLocationRelativeTo(null);
         setIconImage(Toolkit.getDefaultToolkit().getImage(
                 getClass().getResource("/Images/icon.png")));
 
-        getContentPane().setBackground(Color.WHITE);
+        getContentPane().setBackground(new Color(70, 35, 110));
         getContentPane().setLayout(null);
 
         cn.mainpage.setVisible(false);
@@ -41,9 +41,9 @@ public class Aboutpanel extends JFrame {
         });
 
         /* ===== TITLE ===== */
-        JLabel title = new JLabel("Currency Converter", SwingConstants.CENTER);
+        JLabel title = new JLabel("CURRENCY CONVERTER", SwingConstants.CENTER);
         title.setFont(new Font("Segoe UI", Font.BOLD, 28));
-        title.setForeground(new Color(60, 60, 60));
+        title.setForeground(new Color(220, 190, 255));
         title.setBounds(0, 10, 445, 40);
         getContentPane().add(title);
 
@@ -53,7 +53,7 @@ public class Aboutpanel extends JFrame {
         description.setOpaque(false);
         description.setBorder(new EmptyBorder(10, 20, 10, 20));
         description.setFont(new Font("Segoe UI", Font.PLAIN, 16));
-        description.setForeground(new Color(70, 70, 70));
+        description.setForeground(new Color(210, 190, 240));
 
         description.setText(
                 "Currency Converter is developed using Java and a free Exchange Rates API.\n\n"
@@ -64,10 +64,10 @@ public class Aboutpanel extends JFrame {
         description.setBounds(10, 60, 425, 135);
         getContentPane().add(description);
 
-        /* ===== AUTHOR NAME (RED) ===== */
+        /* ===== AUTHOR NAME ===== */
         JLabel author = new JLabel("Made by Sahil Jojare", SwingConstants.CENTER);
         author.setFont(new Font("Segoe UI", Font.BOLD, 15));
-        author.setForeground(new Color(180, 30, 30)); // RED
+        author.setForeground(new Color(255, 180, 180));
         author.setBounds(0, 200, 445, 25);
         getContentPane().add(author);
     }
